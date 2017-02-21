@@ -14,7 +14,7 @@ public class FootballeurTest {
 	private List<Footballeur> footballeurs;
 	
 	@Before
-	public void initFrameworks(){
+	public void init(){
 		this.footballeurs = Arrays.asList(
 				new Footballeur("Fontaine", 30),
 				new Footballeur("Henry", 51),
