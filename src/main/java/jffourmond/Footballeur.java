@@ -5,8 +5,8 @@ import java.util.Optional;
 
 class Footballeur {
   
-  String nom;
-  Integer nbButs;
+  final String nom;
+  final Integer nbButs;
   
   Footballeur(String nom, Integer nbButs){
 	  this.nom = nom;
